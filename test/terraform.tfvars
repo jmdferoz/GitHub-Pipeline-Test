@@ -1,5 +1,5 @@
 resource_group_name = "myResourceGroup"
-location            = "East US"
+location            = "East US 2"
 
 # VNet details
 vnet_name      = "vnet-dev"
