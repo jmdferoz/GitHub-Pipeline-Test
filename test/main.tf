@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 module "vnet" {
-  source              = "../modules/vnet"
+  source              = "../Modules/Vnet"
   resource_group_name = var.resource_group_name
   location            = var.location
   vnet_name           = var.vnet_name
@@ -12,7 +12,7 @@ module "vnet" {
 }
 
 module "sql_db" {
-  source              = "../modules/sql_db"
+  source              = "../Modules/db"
   resource_group_name = var.resource_group_name
   location            = var.location
   sql_server_name     = var.sql_server_name
