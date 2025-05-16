@@ -16,8 +16,8 @@ variable "sql_server_name" {}
 
 variable "sql_db_name" {}
 
-variable "sql_admin_user" {}
+variable "sql_admin_username" {}
 
-variable "sql_password" {
+variable "sql_admin_password" {
   sensitive = true
 }
