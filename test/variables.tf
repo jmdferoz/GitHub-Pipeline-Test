@@ -10,8 +10,9 @@ variable "address_space" {
 
 variable "subnet_name" {}
 
-variable "subnet_prefix" {}
-
+variable "subnet_prefix" {
+  type = list(string)
+}
 variable "sql_server_name" {}
 
 variable "sql_db_name" {}
